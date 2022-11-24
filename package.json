@@ -1,0 +1,22 @@
+{
+  "name": "subscribe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:integration": "jest integration"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
